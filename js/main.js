@@ -638,4 +638,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 6. About section (async)
   renderAbout();
+
+  // 7. Fix mailto links for mobile devices
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+  if (isMobile) {
+    const contactBtn = document.querySelector('.contact-mailto-btn');
+    if (contactBtn) {
+      contactBtn.href = "mailto:bibiashik2005@gmail.com?subject=Hello%20Bibi%20Ashik!&body=Hi%20Bibi%20Ashik,%0A%0AI%20was%20looking%20at%20your%20portfolio%20and%20wanted%20to%20connect%20with%20you%20regarding...";
+    }
+  }
 });
