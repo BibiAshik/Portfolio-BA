@@ -798,7 +798,7 @@ footer .author { font-weight: 600; color: var(--text-h); }
    ========================================= */
 @media (max-width: 768px) {
   /* 1. Hide Achievements link and make navbar normal single line */
-  .nav-link[href="#achievements"] {
+  .nav-link[data-section="achievements"] {
     display: none !important;
   }
   .nav-links {
@@ -831,11 +831,13 @@ footer .author { font-weight: 600; color: var(--text-h); }
   #about .scroll-reveal {
     align-items: flex-start !important;
   }
-  #about .section-title {
+  #about h2.section-title {
     font-size: 1.4rem !important;
     line-height: 1.3 !important;
     margin-bottom: 1rem !important;
     text-align: left !important;
+    align-self: flex-start !important;
+    width: 100% !important;
   }
   
   /* 4. Hide github avatar on mobile */
