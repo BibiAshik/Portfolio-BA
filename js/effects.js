@@ -223,9 +223,9 @@ export function initBlurReveal() {
   const elements = document.querySelectorAll('[data-blur-text]');
 
   elements.forEach((el) => {
-    const text = el.textContent;
+    const text = el.textContent.trim();
     el.textContent = '';
-    const words = text.split(' ');
+    const words = text.split(/\s+/);
 
     words.forEach((word, i) => {
       const span = document.createElement('span');
