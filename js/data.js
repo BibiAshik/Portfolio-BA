@@ -70,14 +70,14 @@ export const projects = [
     screenshot: "images/projects/serve-flow.png",
   },
   {
-    title: "Trust Ledger — Gold Loan SaaS",
-    description: "A multi-tenant SaaS platform that digitizes local gold loan businesses, featuring a shop management dashboard and a customer self-service payment portal.",
-    challenge: "Local gold loan shops rely on messy handwritten ledgers. Tracking daily interest is error-prone, manual payment collection is inefficient, and customers lack visibility into their due balances, leading to frequent disputes and lost trust.",
-    solution: "A secure digital platform that completely replaces handwritten ledgers. It automates overdue reminders and integrates Razorpay Route to route online interest payments directly into individual shop owners' bank accounts, while giving customers a transparent portal to track and pay their dues.",
-    tags: ["Java", "Spring Boot", "MySQL", "Razorpay Route"],
-    github: "https://github.com/BibiAshik/TrustLedger-SaaS",
+    title: "SafeShare",
+    description: "A highly secure file-sharing platform that empowers users to generate password-protected, self-destructing links with absolute control and real-time tracking.",
+    challenge: "Traditional cloud storage is designed for long-term saving, not secure, temporary data transmission. Users sharing highly sensitive documents lack strict control over who views them, exact expiration times, and maximum download limits.",
+    solution: "A concurrent Spring Boot architecture utilizing atomic Redis counters and JWT authentication. It enables instantly generated share links with custom passwords, strict download limits, and automated expiry, while an Access Log dashboard tracks viewer IPs and devices in real-time.",
+    tags: ["Java 17", "Spring Boot", "Redis", "OAuth2", "JWT", "Bucket4j", "Docker", "MySQL", "Vanilla JS"],
+    github: "https://github.com/BibiAshik/Safe-Share",
     live: null,
-    screenshot: "images/projects/trustledger-saas.png",
+    screenshot: "images/projects/safe-share.png",
   },
 ];
 
