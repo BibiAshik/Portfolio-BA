@@ -21,7 +21,6 @@ export const heroBadges = [
 
 export const skills = [
   { name: "Java",            icon: "devicon-java-plain colored" },
-  { name: "C++",             icon: "devicon-cplusplus-plain colored" },
   { name: "SQL",             icon: "devicon-azuresqldatabase-plain colored" },
   { name: "HTML5",           icon: "devicon-html5-plain colored" },
   { name: "CSS3",            icon: "devicon-css3-plain colored" },
@@ -36,6 +35,7 @@ export const skills = [
   { name: "GitHub",          icon: "devicon-github-original" },
   { name: "Postman",         icon: "devicon-postman-plain colored" },
   { name: "Docker",          icon: "devicon-docker-plain colored" },
+  { name: "AWS",             icon: "devicon-amazonwebservices-plain-wordmark colored" },
 ];
 
 export const projects = [
