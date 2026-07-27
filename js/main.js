@@ -282,7 +282,7 @@ function openProjectModal(project) {
   }).join('');
 
   const screenshotHtml = project.screenshot ? `
-    <div style="display:flex;flex-direction:column;gap:0.75rem;">
+    <div class="modal-screenshot-container" style="display:flex;flex-direction:column;gap:0.75rem;">
       <h4 style="font-size:0.7rem;font-family:var(--mono);font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);">
         INTERFACE PREVIEW
       </h4>

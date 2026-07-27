@@ -844,5 +844,10 @@ footer .author { font-weight: 600; color: var(--text-h); }
   .about-avatar {
     display: none !important;
   }
+  
+  /* 5. Hide modal screenshots on mobile */
+  .modal-screenshot-container {
+    display: none !important;
+  }
 }
 
