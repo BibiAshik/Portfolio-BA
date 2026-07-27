@@ -225,7 +225,7 @@ function renderProjects() {
             <div class="browser-url">${project.live ? project.live.replace('https://', '') : 'localhost:8080'}</div>
           </div>
           <div class="project-screenshot-wrapper">
-            <img src="${project.screenshot}" alt="${project.title} Interface" loading="lazy">
+            <img src="${project.screenshot}" alt="${project.title} Interface">
           </div>
         </div>
 
@@ -296,7 +296,7 @@ function openProjectModal(project) {
           <div class="browser-url" style="max-width:200px;">${project.live ? project.live.replace('https://', '') : 'localhost:8080'}</div>
         </div>
         <div class="project-screenshot-wrapper">
-          <img src="${project.screenshot}" alt="${project.title} Interface" loading="lazy">
+          <img src="${project.screenshot}" alt="${project.title} Interface">
         </div>
       </div>
     </div>
