@@ -844,15 +844,5 @@ footer .author { font-weight: 600; color: var(--text-h); }
   .about-avatar {
     display: none !important;
   }
-  
-  /* 5. Show full project images naturally */
-  .project-screenshot-wrapper {
-    aspect-ratio: auto !important;
-    background: transparent !important;
-  }
-  .project-screenshot-wrapper img {
-    height: auto !important;
-    object-fit: contain !important;
-  }
 }
 
