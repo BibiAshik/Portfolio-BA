@@ -189,14 +189,10 @@
 
 /* Browser mockup */
 .project-browser {
-  display: none;
+  display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--border);
   background: var(--bg-secondary);
-}
-
-@media (min-width: 768px) {
-  .project-browser { display: flex; }
 }
 
 .browser-bar {
